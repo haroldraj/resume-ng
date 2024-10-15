@@ -1,5 +1,5 @@
 basics:
-  name: Bernard Niset
+  name: Harold Rajaonarison
   label: Senior Fullstack Developer (Freelance)
   summary: |
     As a Senior Fullstack Engineer, I utilize a strong background in Java-based backend 
@@ -19,24 +19,24 @@ basics:
     backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud 
     Computing. My approach focuses on integrating innovative frontend techniques with 
     robust backend solutions to deliver superior outcomes for clients.
-  phone: +32 479 529 195
-  email: bn@smartobjects.be
+  phone: +32 467 87 61 37
+  email: harold.rajaonarison@ecole-it.com
   location:
-    address: Clos du Parnasse, 13 / 19
-    postalCode: "1050"
+    address: Avenue de Tervueren, 276
+    postalCode: "1150"
     city: Brussels
     countryCode: Belgium
   website: https://www.smartobjects.be
   profiles:
     - network: linkedin
-      username: bernardniset
-      url: https://www.linkedin.com/in/bernardniset
+      username: haroldraj
+      url: https://www.linkedin.com/in/haroldraj
     - network: twitter
-      username: herge21
-      url: https://twitter.com/herge21
+      username: rnarsonharold
+      url: https://x.com/rnarsonharold
     - network: github
-      username: bn3t
-      url: https://github.com/bn3t
+      username: haroldraj
+      url: https://github.com/haroldraj
 work:
   - company: RVA-ONEM (via 5thfloor)
     disposition: current
