@@ -22,7 +22,7 @@ basics:
   phone: +32 467 87 61 37
   email: harold.rajaonarison@ecole-it.com
   location:
-    address: Avenue de Tervueren, 276
+    address: Avenue de Tervueren
     postalCode: "1150"
     city: Brussels
     countryCode: Belgium
@@ -38,25 +38,25 @@ basics:
       username: haroldraj
       url: https://github.com/haroldraj
 work:
-  - company: RVA-ONEM (via 5thfloor)
+  - company: IDM TEK
     disposition: current
-    position: Senior Fullstack Developer
-    description: Fullstack development in Angular and Java
-    website: "https://www.onem.be"
-    startDate: "2024-04-01"
+    position: Fullstack Developer (Internship)
+    description: Fullstack development in Flutter and Laravel
+    startDate: "2023-11-01"
+    endDate: "2024-03-01"
     methodology: Agile/Scrum
     summary: >-
       Working on admissibility and temporary unemployment projects for the
       [RVA-ONEM](https://www.onem.be) organization.
     technologies:
-      - angular
-      - java
-      - spring boot
-      - hibernate
-      - typescript
+      - laravel
+      - flutter
+      - docker
+      - git 
+      - mariaDB 
   - company: GLS Belgium
     disposition: current
-    position: Senior Frontend Developer
+    position: IT Technician
     description: Frontend development in ReactJS and TypeScript
     website: "https://mygls.be/en"
     startDate: "2022-09-01"
@@ -362,371 +362,22 @@ work:
       - typescript
       - swift
       - liquibase
-  - company: BNP Paribas
-    disposition: page2
-    position: >-
-      Senior Fullstack Developer - Application Architect - Dev Lead
-    description: >-
-      Fullstack development in JavaScript and Java with
-      Spring/Hibernate
-    website: "https://centric.bnpparibas.com/public/marketing/"
-    startDate: "2010-09-01"
-    endDate: "2015-09-30"
-    methodology: Agile/Scrum
-    summary: >
-      Developement, Team Leading and architectural design for the Centric project, 
-      delivering crucial trading and post-trade applications. Spearheaded the 
-      creation of framework tools and applications for FX trading, market 
-      data visualization, and regulatory EMIR reporting, leveraging Java and 
-      JavaScript technologies within an Agile/Scrum methodologies.
-    highlights: []
-    technologies:
-      - angularjs
-      - cxf
-      - hibernate
-      - highcharts
-      - java
-      - java-ee
-      - javascript
-      - jboss
-      - jquery
-      - oracle
-      - spring
-      - websphere
-      - wicket
-      - liquibase
-  - company: Electrabel - Engie
-    disposition: page2
-    position: Senior Software Developer
-    description: Backend J2EE and BPMN development of Energy Trading Application
-    website: ""
-    startDate: "2009-04-01"
-    endDate: "2010-08-31"
-    methodology: Waterfall
-    summary: >-
-      Contributed to the ETRM project, focusing on backend J2EE development and BPMN for 
-      energy trading applications. Developed components using [**Java**](https://www.java.com/en/), 
-      [**Spring**](https://spring.io/), and [**Hibernate**](https://hibernate.org/), 
-      implemented workflows. Utilized technologies such as Wicket, Jasper Reports, 
-      JBoss, Oracle, Ant, and SVN within a Waterfall methodology framework.
-    highlights: []
-    technologies:
-      - java
-      - spring
-      - hibernate
-      - wicket
-      - jasper-reports
-      - jboss
-      - oracle
-      - ant
-      - svn
-  - company: Direct Mobile SPRL
-    disposition: page2
-    position: Senior Software Developer and Owner
-    description: Architecture, Frontend, Backend developemnt in Java/J2EE
-    website: ""
-    startDate: "2006-10-01"
-    endDate: "2009-03-31"
-    summary: >-
-      Led the architecture, development, and production support of mobile applications. 
-      Specialized in Java/J2EE platforms, focusing on both frontend and backend systems, 
-      and leveraged technologies such as **Wicket**, **PostgreSQL**, **JBoss**, and **ActiveMQ** to 
-      deliver sophisticated mobile solutions.
-    highlights: []
-    technologies:
-      - java
-      - spring
-      - hibernate
-      - jee
-      - wicket
-      - mobile
-      - postgresql
-      - jboss
-      - activemq
-  - company: Newtec Cy
-    disposition: page2
-    position: Senior Software Developer
-    website: "https://www.newtec.eu/product/sat3play-ip-broadband-hub"
-    startDate: "2003-08-01"
-    endDate: "2006-09-30"
-    methodology: Extreme Programming
-    summary: >-
-      DVB-RCS Project. Development of the network Hub management application
-      (Customer Configuration Management Tool). J2EE Java Development with [**Jboss**](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)
-      / [**Hibernate**](https://hibernate.org/) / [**Spring**](https://spring.io/) on Linux/Windows.
-    highlights: []
-    technologies:
-      - j2ee
-      - java
-      - linux
-      - mysql
-      - hibernate
-      - spring
-      - soap
-      - jax-rpc
-      - xml-rpc
-      - jboss
-  - company: Golog SPRL
-    disposition: page2
-    position: Senior Software Developer and Architect
-    website: ""
-    startDate: "2002-01-01"
-    endDate: "2004-12-01"
-    summary: >
-      Development of a redirection system for bad requests done by ISPs Internet users. Design, 
-      development and technical support of the complete IT infrastructure following the 
-      requirements provided by the customer. The redirection engine is written in [**C++**](https://en.cppreference.com/w/) and 
-      [**Python**](https://www.python.org/), the administrator part is a web site written in **J2EE**.
-    highlights: []
-    technologies:
-      - c/c++
-      - python
-      - corba
-      - java
-      - j2ee
-      - jakarta
-      - struts
-      - hibernate
-      - linux
-      - tomcat
-      - jboss
-      - postgresql
-      - python
-  - company: IBM Belgium
-    disposition: page2
-    position: Senior Software Developer and Team Leader
-    description: Windows and Unix Development in C++
-    website: https://www.cls-group.com
-    startDate: "2000-09-01"
-    endDate: "2003-06-01"
-    methodology: Waterfall
-    summary: >-
-      Part of the GUI development for the [CLS Bank](https://www.cls-group.com/) system, ensuring 
-      cross-platform compatibility across Windows NT and [AIX](https://www.ibm.com/products/aix). 
-      Led the design and enhancement of a complex 
-      [**MFC/STL**](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) 
-      application and a [**C++**](https://en.cppreference.com/w/) API. Mentored a team of 6, improved code quality, provided 
-      [**AIX**](https://www.ibm.com/products/aix) support, and developed 
-      a [**Java**](https://www.java.com/en/) based system monitoring tool.
-    highlights: []
-    technologies:
-      - windows
-      - nt
-      - unix
-      - aix
-      - c++
-      - mfc
-      - stl
-      - rational rose
-      - java
-      - xml
-      - xslt
-      - xml-rpc
-  - company: "Various Companies - France, Belgium"
-    disposition: page2
-    position: Senior Developer and Team Leader
-    description: Windows and Unix Development in C++
-    startDate: "1991-01-01"
-    endDate: "2000-09-01"
-    methodology: Waterfall
-    summary: |
-      Senior Software Developer and Team Leader with a strong track record from 
-      1991-2000, specializing in the development of web and distributed applications, 
-      EDM systems, and workflow solutions. Led and contributed to key projects in a 
-      range of environments, utilizing technologies such as [**C**](https://en.cppreference.com/w/c), [**C++**](https://en.cppreference.com/w/), 
-      [**Java**](https://www.java.com/en/) and [**Python**](https://www.python.org/) 
-      across **Windows**, **UNIX** and **Linux** platforms. 
-
-      Demonstrated expertise in database management and development tools, 
-      delivering scalable solutions in telecom, document management, 
-      and various freelance engagements.
-    highlights:
-      - Versatile Software Developer and Team Leader with a proven history of
-        leading innovative projects in telecom, document management, and web development
-        from 1991-2000.
-      - Expert in a multitude of programming languages and database systems across
-        various platforms.
-      - Delivered high-impact solutions and applications, both as a full-time
-        specialist and a freelance contractor, contributing to the
-        technological advancement of multiple organizations.
-    technologies:
-      - c
-      - c++
-      - corba
-      - forte
-      - gnu
-      - hp-ux
-      - java
-      - jsp
-      - linux
-      - mysql
-      - oracle
-      - python
-      - solaris
-      - sql server
-      - uml
-      - win32
-      - windows nt
-      - wml
-      - xwindows
-  - company: 7Ways
-    disposition: obsolete
-    position: Developer + Team leader
-    startDate: "1999-11-01"
-    endDate: "2000-08-01"
-    summary: >-
-      Developer + Team leader in a start-up company based in Sophia-Antipolis
-      (France) 7WAYS. Various development of web sites using Python, Java and C++.
-    technologies:
-      - windows-nt
-      - linux
-      - c++
-      - gnu
-      - corba
-      - python
-      - java
-      - mysql
-      - oracle
-      - dbms
-      - wap
-      - wml
-      - jsp
-      - uml
-  - company: Sema Group
-    disposition: obsolete
-    position: Developer
-    description: Distributed Application Development with Forte
-    website: ""
-    startDate: "1999-04-01"
-    endDate: "1999-11-01"
-    summary: >-
-      Three tiers distributed development of SemaVision product : Customer Care, 
-      Billing & Rating System for mobile telecommunication operators.
-    highlights: []
-    technologies:
-      - forte
-      - oracle
-      - unix
-      - hp-ux
-      - uml
-  - company: Netbay SA
-    disposition: obsolete
-    position: Developer and Team Leader
-    description: Windows Development in C++
-    startDate: "1997-09-01"
-    endDate: "1999-04-01"
-    summary: >-
-      Responsible for the analysis, planning and development of tools to do management 
-      of document databases.  Solutions to help the scanning and workflow processing of 
-      big amounts of documents.
-    technologies:
-      - windows
-      - winapi
-      - c++
-      - mfc
-      - sql-server
-      - ms-access
-      - solaris
-  - company: Dron Concept Informatique
-    disposition: obsolete
-    summary: >-
-      Responsible for the analysis, planning and development of an EDM software
-      package with a team of 3 developers. Responsible for feasibility
-      study, cost evaluation of specifics developments, supervision of the
-      developments.
-    position: Developer and Team Leader
-    description: Windows Development in C++
-    startDate: "1995-10-01"
-    endDate: "1997-09-01"
-    highlights: []
-    technologies:
-      - windows
-      - winapi
-      - visual-c++
-      - c++
-  - company: Misc
-    disposition: obsolete
-    position: Free-lance contractor in Belgium
-    description: Development in C++
-    website: ""
-    startDate: "1994-04-01"
-    endDate: "1995-09-01"
-    highlights:
-      - Several developments under Windows and MicroStation (CAD software).
-      - CD-ROM development (Trends Top 30).
-      - "CISCO SYSTEMS SA: Automatic Case Routing utility for support services in Brussels developed in C on HP-UX with a Oracle Database."
-      - "ARIANE II SA for the European Economics Commission: Analysis and realisation of an Microsoft Access application for report production concerning inventory and help desk systems."
-    technologies:
-      - windows
-      - unix
-      - hp-ux
-      - solaris
-      - microstation
-      - oracle
-      - ms-access
-      - c
-      - c++
-      - esql
-      - visual-basic
-      - mfc
-  - company: OLISOFT SPRL
-    disposition: obsolete
-    position: Developer
-    description: Development in C++
-    startDate: "1992-01-01"
-    endDate: "1994-02-01"
-    summary: >-
-      Development of a Workflow system under X-Windows OSF Motif.  Port of
-      this application to MS-Windows (using the C language). Project leader and 
-      Developer for a CAD document management systmem to manage
-      big raster documents (A0) and CAD documents viewing, viewing,
-      annotations layers management.
-    technologies:
-      - windows
-      - unix
-      - xwindows
-      - osf-motif
-      - c
-  - company: ISATIS SA
-    disposition: obsolete
-    position: Developer
-    description: Development in C
-    startDate: "1991-01-01"
-    endDate: "1992-12-31"
-    summary: >-
-      Development of miscellaneous management applications under Unix
-      (Accounting software, Budget and resource management system for the EEC)
-    highlights: []
-    technologies:
-      - unix
-      - environment
-      - sco
-      - sun
-      - aix
-      - icl
-      - oracle
-      - informix
-      - c-isam
-      - ingres
-      - c
-      - ingres4gl
-      - supernova-4gl
 education:
-  - institution: EPHEC
+  - institution: Ecole-IT (Campus Bruxelles)
     area: Computer Science
     studyType: Graduat
-    startDate: "1987-01-01"
-    endDate: "1991-01-01"
-  - institution: Institut des Arts de Diffusion
-    area: Sound Engineering
+    startDate: "2022-10-03"
+    endDate: "2025-08-01"
+  - institution: Institut Supérieure Polytechnique de Madagascar
+    area: Electronics, Computer Systems and AI
     studyType: Graduat
-    startDate: "1984-01-01"
-    endDate: "1987-01-01"
-  - institution: Athénée Royal Maurice Carème Wavre
-    area: Mathématiques
-    studyType: Enseignement secondaire
-    startDate: "1982-01-01"
-    endDate: "1984-01-01"
+    startDate: "2016-10-01"
+    endDate: "2020-08-01"
+  - institution: Lycée Jacques Rabemananjara Toamasina
+    area: secondaire
+    studyType: Enseignement
+    startDate: "2012-10-01"
+    endDate: "2016-08-01"
 skills:
   - name: Web Development
     level: Master
@@ -739,14 +390,17 @@ skills:
       - HTML
       - CSS
       - REST
+      - Laravel
       - Tailwindcss
   - name: Programming Languages
     level: Master
     keywords:
       - TypeScript
+      - Python
+      - Dart
       - JavaScript
       - Java
-      - C/C++
+      - PHP
   - name: Java Ecosystem
     level: Master
     keywords:
@@ -756,13 +410,14 @@ skills:
     level: Master
     keywords:
       - PostgreSQL
-      - Oracle
+      - MongoDB
       - MySQL/MariaDB
   - name: Tooling
     level: Master
     keywords:
       - Docker
       - Git
+      - Kubernetes 
   - name: Methodology
     level: Master
     keywords:
@@ -774,19 +429,7 @@ languages:
     fluency: Full professional
   - language: French
     fluency: Native
-references:
-  - name: Jean-Francois Lentz (Software engineer and Development Team Leader)
-    reference: >-
-      Good team spirit and very professional... currently we are building a web
-      application in a very pragmatic and pleasant way.
-  - name: >-
-      Eric Lantonnet (Directeur Général Namebay (Nameshield Group), Ex. Membre
-      du Conseil d'Administration de l'AFNIC et membre du MEB (Monaco))
-    reference: >-
-      Bernard a fait pour 7Ways un travail de base essentiel qui a permis
-      l'essor de la registration de nom de domaine Internet "Registrar" pour ma
-      société et qui a été repris, en partie, par la suite, par de nombreux
-      Registrar. Son travail appliqué et très professionnel reste un très bon
-      souvenir pour moi.
+interests:
+  - name: Philosophy
 meta:
   theme: elegant
