@@ -1,4 +1,9 @@
-import { BookUser, Globe, Linkedin, Mail, Smartphone, Twitter, Github } from "lucide-react";
+import
+  {
+    BookUser,
+    //Globe,
+    Linkedin, Mail, Smartphone, Twitter, Github
+  } from "lucide-react";
 import { Resume } from "../schema/resume";
 import Title from "./Title";
 
@@ -13,8 +18,8 @@ interface AboutMeProps {
   website: string;
 }
 
-const AboutMe = ({ address, email, phone, postalCode, country, profiles, city, website }: AboutMeProps) => {
-  const websiteWithoutProtocol = website.replace(/.*?:\/\//g, "");
+const AboutMe = ({ address, email, phone, postalCode, country, profiles, city }: AboutMeProps) => {
+  //const websiteWithoutProtocol = website.replace(/.*?:\/\//g, "");
   return (
     <>
       <Title title="About Me" />
@@ -40,12 +45,12 @@ const AboutMe = ({ address, email, phone, postalCode, country, profiles, city, w
           <Smartphone className="h-6 w-6 sm:h-4 sm:w-4" />
           <div>{phone}</div>
         </li>
-        <li className="flex flex-row items-center space-x-4 text-sm">
+        {/* <li className="flex flex-row items-center space-x-4 text-sm">
           <Globe className="h-6 w-6 sm:h-4 sm:w-4" />
           <div>
             <a href={website}>{websiteWithoutProtocol}</a>
           </div>
-        </li>
+        </li>*/}
         {profiles.map((profile) => (
           <li key={profile.network} className="text-sm">
             <a href={profile.url} className="flex items-center space-x-4">

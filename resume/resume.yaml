@@ -1,24 +1,14 @@
 basics:
   name: Harold Rajaonarison
-  label: Senior Fullstack Developer (Freelance)
+  label: Data Analyst seeking an internship
   summary: |
-    As a Senior Fullstack Engineer, I utilize a strong background in Java-based backend 
-    services combined with extensive experience in modern frontend technologies. My recent 
-    shift to fullstack development allows me to apply my thorough knowledge of the Java Platform
-    and harness the capabilities of the Angular framework to create interactive and 
-    responsive user interfaces.
+    I am currently pursuing my Master’s degree with a focus on Data Science, 
+    at ECOLE-IT. Throughout my academic projects, I have developed key skills 
+    in data extraction, analysis, and machine learning. 
 
-    Testing continues to be a critical component of my development process. I am proficient 
-    in systematic unit testing and adept at using advanced integration tools such as 
-    Cypress and Playwright, which are essential for thorough application testing and 
-    effective backend simulation.
-
-    ### Specialties
-
-    Strong expertise in Angular, TypeScript, and JavaScript. Comprehensive experience in 
-    backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud 
-    Computing. My approach focuses on integrating innovative frontend techniques with 
-    robust backend solutions to deliver superior outcomes for clients.
+    I am now actively seeking an internship in the field of data, where I can 
+    apply my analytical and technical skills to real-world challenges in data 
+    engineering, analytics, and machine learning.
   phone: +32 467 87 61 37
   email: harold.rajaonarison@ecole-it.com
   location:
@@ -26,7 +16,6 @@ basics:
     postalCode: "1150"
     city: Brussels
     countryCode: Belgium
-  website: https://www.smartobjects.be
   profiles:
     - network: linkedin
       username: haroldraj
@@ -333,35 +322,6 @@ work:
       - tdd
       - websphere
       - liquibase
-  - company: Takeeateasy.be
-    disposition: page2
-    position: Senior Fullstack Developer
-    description: Developed consumer apps; web, mobile, cloud in Agile team.
-    startDate: "2015-10-01"
-    endDate: "2016-07-31"
-    methodology: Agile/Scrum
-    summary: >-
-      Developed and managed consumer-facing web and mobile applications, 
-      utilizing JavaScript, TypeScript, and Swift within an Agile/Scrum 
-      environment. Handled full lifecycle development with Spring/Hibernate and 
-      managed AWS hosting.
-    highlights:
-      - Frontend web development in **JavaScript** and **TypeScript**
-      - iOS development for iPhone in [**Swift**](https://developer.apple.com/swift/)
-      - Backend development with [**Spring**](https://spring.io/)
-      - Manage the Application hosted on [**AWS**](https://aws.amazon.com) (S3, RDS, Elastic Beanstalk)
-    technologies:
-      - java
-      - javascript
-      - spring boot
-      - hibernate
-      - aws
-      - ios
-      - cloud
-      - angularjs
-      - typescript
-      - swift
-      - liquibase
 education:
   - institution: Ecole-IT (Campus Bruxelles)
     area: Computer Science
@@ -382,51 +342,45 @@ skills:
   - name: Web Development
     level: Master
     keywords:
-      - ReactJS
-      - Angular
-      - WebPack
-      - Vite
-      - NextJS
-      - HTML
-      - CSS
+      - Spring Boot
       - REST
       - Laravel
-      - Tailwindcss
+      - Flutter
   - name: Programming Languages
     level: Master
     keywords:
-      - TypeScript
       - Python
       - Dart
-      - JavaScript
       - Java
       - PHP
-  - name: Java Ecosystem
-    level: Master
-    keywords:
-      - Spring
-      - Hibernate
   - name: Databases
     level: Master
     keywords:
-      - PostgreSQL
       - MongoDB
       - MySQL/MariaDB
   - name: Tooling
     level: Master
     keywords:
+      - Power BI
+      - Power Query
+      - MS Excel
       - Docker
       - Git
-      - Kubernetes 
   - name: Methodology
     level: Master
     keywords:
-      - Scrum
+      - Agile
       - TDD
       - Testing Strategy
+  - name: Soft Skills
+    level: Master
+    keywords:
+      - Autonomy
+      - Curiosity
+      - Rigor
 languages:
   - language: English
-    fluency: Full professional
+    fluency: Level C1
   - language: French
     fluency: Native
 interests:
