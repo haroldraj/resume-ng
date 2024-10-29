@@ -66,6 +66,33 @@ work:
       - MariaDB
       - REST API
       - Agile/Scrum 
+      - Trello
+  - company: KETRIKA Hi-Tech (Madagascar)
+    disposition: current
+    position: IT Technician
+    description: ""
+    website: "https://evs.com/products/asset-workflow-management/ipd-via"
+    startDate: "2021-04-01"
+    endDate: "2022-10-31"
+    methodology: Agile/Scrum
+    summary: >-
+      Responsible for maintaining and troubleshooting IT systems, including the installation 
+      and configuration of local networks, server setup, and surveillance systems. Ensured 
+      network and system reliability through regular diagnostics and proactive maintenance, 
+      enhancing both security and operational efficiency.
+    highlights:
+      - Performed maintenance on computer systems, ensuring minimal downtime and optimal performance.
+      - Installed and configured local networks.
+      - Set up and configured Windows and Linux servers, managing access control and monitoring system health.
+      - Installed and managed both wired and wireless surveillance camera systems.
+      - Conducted regular diagnostics and troubleshooting of network and hardware issues.
+      - Provided end-user support and training on system use and basic troubleshooting.
+    technologies:
+      - Windows and Linux Server Configuration
+      - Local Network Installation (Switches, Routers, Patch Panels)
+      - Wired and Wireless Surveillance Systems
+      - IT System Diagnostics and Maintenance
+      - End-User Technical Support
   - company: Ministry of Economy and Finance (Madagascar)
     disposition: current
     position: System Administrator (Internship)
@@ -92,51 +119,6 @@ work:
       - Network diagnostics tools
       - Server configuration tools
 
-  - company: EVS Broadcast Equipment
-    disposition: current
-    position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
-    website: "https://evs.com/products/asset-workflow-management/ipd-via"
-    startDate: "2021-05-01"
-    endDate: "2022-08-31"
-    methodology: Agile/Scrum
-    summary: >-
-      Contributed to the development of the Production Asset Management (PAM) 
-      [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project. 
-      This PAM software stands as an essential tool for television networks, 
-      streamlining the efficient management, organization, and accessibility of 
-      their digital content and media assets.
-    highlights:
-      - >-
-        Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform. 
-        Interface with the in-house C++ video library via node n-api.
-      - >-
-        Development of a file ingest application ([Electron](https://www.electronjs.org/) + Web) 
-        for ingesting local video files.
-      - >-
-        Modernise the stack and port the application to latest versions of dependencies and tooling 
-        ([ReactJS](https://react.dev/), [Webpack](https://webpack.js.org/), [Electron](https://www.electronjs.org/), 
-        NodeJS, [CRA](https://create-react-app.dev/)).
-      - >-
-        Development of a [video editing tool for FOX Sports US](https://evs.com/company/news/evs-launches-ipd-via-create) 
-        (ReactJS).
-    technologies:
-      - cucumber
-      - cypress
-      - electron
-      - electron-forge
-      - nodejs
-      - react-redux
-      - reactjs
-      - redux
-      - redux-saga
-      - redux-thunk
-      - react-query
-      - typescript
-      - webpack
-      - cpp
-      - node-gyp
-      - node-napi
   - company: Kensu
     disposition: page1
     position: Senior Frontend Developer
@@ -183,195 +165,18 @@ work:
       - typescript
       - websocket
       - wiremock
-  - company: Deutsche Bank Belgium
-    disposition: page1
-    position: Senior Frontend Developer
-    description: Frontend development in Angular
-    website: "https://www.deutschebank.be"
-    startDate: "2019-01-01"
-    endDate: "2019-11-30"
-    methodology: Agile/Scrum
-    summary: |
-      I contributed to the development of the bank's 
-      [Online Banking application](https://onlinebanking.deutschebank.be/), a 
-      customer-facing platform that provides account holders with access to 
-      traditional banking features like checking account balances, viewing 
-      transaction history, and making payments. My specific contributions 
-      involved developing an innovative feature that enables users to link cards 
-      from other banks, as well as enhancing the user experience on the sign-in screens.
-    highlights:
-      - >-
-        Card Linkage: allow users of OLB to link their third party cards to
-        their bank accounts.
-      - Signing screen
-      - Admin application used by internal bank users
-      - Code reviews (PRs) of frontend and backend code
-      - Mock implementation of the backend to allow for parallel development
-      - Frontend Testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
-    technologies:
-      - angular
-      - cypress
-      - typescript
-      - wiremock
-  - company: EVS Broadcast Equipment
-    disposition: page1
-    position: Senior Frontend Developer
-    description: Frontend development in ReactJS
-    website: "https://evs.com/products/asset-workflow-management/ipd-via"
-    startDate: "2018-03-01"
-    endDate: "2018-12-31"
-    methodology: Agile/Scrum
-    summary: >-
-      Development for the [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project.
-    highlights:
-      - Development of a Workflow Management UI.
-      - Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform.
-      - >-
-        Development of a file ingest application ([**Electron**](https://www.electronjs.org/) + **Web**) for ingesting local
-        video files
-    technologies:
-      - cucumber
-      - cypress
-      - electron
-      - node-ffi
-      - node-gyp
-      - nodejs
-      - react-redux
-      - reactjs
-      - redux
-      - redux-saga
-      - redux-thunk
-      - typescript
-      - webpack
-  - company: EVS Broadcast Equipment
-    disposition: page1
-    position: Senior Backend Developer
-    description: Backend development in Java and Spring
-    website: "https://evs.com/products/asset-workflow-management/ipd-via"
-    startDate: "2017-11-01"
-    endDate: "2018-02-28"
-    methodology: Agile/Scrum
-    summary: "Development for the IPD.VIA project"
-    highlights:
-      - >-
-        Development of a **Transfer Agent** for transfering files from/to ftp, sftp,
-        [AWS S3](https://aws.amazon.com/s3/getting-started/), [Aspera](https://www.ibm.com/products/aspera), 
-        File Catalyst, Tape storage.
-      - >-
-        Automation test framework for integration testing the Transfer Agent, 
-        using **docker** and **docker-compose**.
-    technologies:
-      - spring
-      - amazon-web-services
-      - spring-boot
-      - java-8
-      - rest
-      - docker
-      - docker-compose
-  - company: Design is Dead (now Emakina)
-    disposition: page1
-    position: Senior Fullstack Developer
-    description: Fullstack development with AngularJS, Angular and Java
-    website: "https://www.emakina.com/en-be"
-    startDate: "2017-05-01"
-    endDate: "2017-10-30"
-    summary: >-
-      Development of applications for [Base Company](https://www.base.be/en/private.html).
-    highlights:
-      - Fulstack Development in Java, [**AngularJS**](https://angularjs.org/) and
-        [**Angular**](https://angular.io/) of features for the Base e-commerce website
-    technologies:
-      - angular
-      - angularjs
-      - cucumber
-      - hibernate
-      - html
-      - javascript
-      - junit
-      - maven
-      - oracle
-  - company: BNP Paribas Fortis
-    disposition: page1
-    position: Senior Developer, Technical Architect, and IT Integrator
-    description: Managed deployment and integration for Scrum team projects.
-    website: "https://www.bnpparibasfortis.be"
-    startDate: "2016-08-01"
-    endDate: "2017-04-30"
-    methodology: Agile/Scrum
-    summary: |
-      Orchestrated seamless deployment of Scrum team projects within the bank's 
-      infrastructure, ensuring product integration with dependent systems. 
-      Managed server provisioning, network configuration, and WebSphere setup. 
-      Oversaw application security, roles, and **SQL** script implementation. 
-      Mentored the development team on technical decisions and coding practices, 
-      and facilitated test automation with tools like 
-      [**Cucumber-Java**](https://cucumber.io/docs/installation/java/). 
-
-      Worked within an Agile/Scrum methodology, utilizing technologies such as 
-      [**Hibernate**](https://hibernate.org/), [**Java**](https://www.java.com/en/), 
-      [**Oracle**](https://www.oracle.com/be/), [**Spring**](https://spring.io/) and
-      [**WebSphere**](https://www.ibm.com/products/websphere-application-server).
-    highlights:
-      - Follow-up infrastructure provisioning of servers
-      - Follow-up configuration of network routing
-      - Follow-up Websphere setup for the application
-      - Manage security and roles
-      - Provide SQL scripts to DBAs and follow-up their execution
-      - >-
-        Follow up with the development team, guide technical choices and
-        implementation
-      - Provide tools to allow test automation
-    technologies:
-      - bdd
-      - cucumber-java
-      - hibernate
-      - java
-      - oracle
-      - spring
-      - tdd
-      - websphere
-      - liquibase
-  - company: Takeeateasy.be
-    disposition: page2
-    position: Senior Fullstack Developer
-    description: Developed consumer apps; web, mobile, cloud in Agile team.
-    startDate: "2015-10-01"
-    endDate: "2016-07-31"
-    methodology: Agile/Scrum
-    summary: >-
-      Developed and managed consumer-facing web and mobile applications, 
-      utilizing JavaScript, TypeScript, and Swift within an Agile/Scrum 
-      environment. Handled full lifecycle development with Spring/Hibernate and 
-      managed AWS hosting.
-    highlights:
-      - Frontend web development in **JavaScript** and **TypeScript**
-      - iOS development for iPhone in [**Swift**](https://developer.apple.com/swift/)
-      - Backend development with [**Spring**](https://spring.io/)
-      - Manage the Application hosted on [**AWS**](https://aws.amazon.com) (S3, RDS, Elastic Beanstalk)
-    technologies:
-      - java
-      - javascript
-      - spring boot
-      - hibernate
-      - aws
-      - ios
-      - cloud
-      - angularjs
-      - typescript
-      - swift
-      - liquibase
 education:
   - institution: Ecole-IT (Campus Bruxelles)
     area: Computer Science
     studyType: Graduat
     startDate: "2022-10-03"
     endDate: "2025-08-01"
-  - institution: Institut Supérieure Polytechnique de Madagascar
+  - institution: Institut Supérieure Polytechnique de Madagascar (ISPM)
     area: Electronics, Computer Systems and AI
     studyType: Graduat
     startDate: "2016-10-01"
     endDate: "2020-08-01"
-  - institution: Lycée Jacques Rabemananjara Toamasina
+  - institution: Jacques Rabemananjara High School - Madgascar
     area: secondaire
     studyType: Enseignement
     startDate: "2012-10-01"
@@ -424,7 +229,7 @@ skills:
       - Testing Strategy
 languages:
   - language: English
-    fluency: Full professional
+    fluency: Level C1
   - language: French
     fluency: Native
 interests:
