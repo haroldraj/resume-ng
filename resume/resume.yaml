@@ -1,6 +1,6 @@
 basics:
   name: Harold Rajaonarison
-  label: Senior Fullstack Developer (Freelance)
+  label: Aspiring Data Analyst
   summary: |
     As a Senior Fullstack Engineer, I utilize a strong background in Java-based backend 
     services combined with extensive experience in modern frontend technologies. My recent 
@@ -26,7 +26,7 @@ basics:
     postalCode: "1150"
     city: Brussels
     countryCode: Belgium
-  website: https://www.smartobjects.be
+  website: https://wwww.portfolio.haroldraja.com
   profiles:
     - network: linkedin
       username: haroldraj
@@ -38,7 +38,7 @@ basics:
       username: haroldraj
       url: https://github.com/haroldraj
 work:
-  - company: IDM TEK
+  - company: IDM TEK (Brussels)
     disposition: current
     position: Fullstack Developer (Internship)
     description: Fullstack development in Flutter and Laravel
@@ -46,54 +46,52 @@ work:
     endDate: "2024-03-01"
     methodology: Agile/Scrum
     summary: >-
-      Working on admissibility and temporary unemployment projects for the
-      [RVA-ONEM](https://www.onem.be) organization.
+      Contributed to the development of a web and mobile application designed to facilitate 
+      communication between agents, clubs, and football players. Built with [Flutter](https://flutter.dev/) for the 
+      interfaces and [Laravel](https://laravel.com/) for the backend, the application provided access to detailed player statistics 
+      while securing sensitive information, such as contact details. Agents could also manage their connections 
+      with athletes within the platform. An external API was used to retrieve up-to-date stats on players, leagues, 
+      and clubs.
+    highlights:
+      - Fullstack development using Flutter for mobile and Laravel for backend.
+      - Integrated a third-party API for retrieving player, league, and club statistics.
+      - Ensured secure access to player data while protecting sensitive information.
+      - Used [Docker](https://www.docker.com/) for containerization and [Gitea](https://about.gitea.com/) for version control and collaboration.
+
     technologies:
-      - laravel
-      - flutter
-      - docker
-      - git 
-      - mariaDB 
-  - company: GLS Belgium
+      - Laravel
+      - Flutter
+      - Docker
+      - Git/Gitea 
+      - MariaDB
+      - REST API
+      - Agile/Scrum 
+  - company: Ministry of Economy and Finance (Madagascar)
     disposition: current
-    position: IT Technician
-    description: Frontend development in ReactJS and TypeScript
-    website: "https://mygls.be/en"
-    startDate: "2022-09-01"
-    endDate: "2024-03-31"
+    position: System Administrator (Internship)
+    description: ""
+    website: "https://www.economie.gouv.fr/"
+    startDate: "2019-11-01"
+    endDate: "2020-01-30"
     methodology: Agile/Scrum
     summary: |
-      Contributed to developing the [MyGLS](https://mygls.be/en) project, 
-      a web application that facilitates personalized shipment options and 
-      enables users to monitor and track their shipments with ease.
-      GLS partners with independent entities for shipment deliveries, maintaining 
-      responsibility for their compliance with legal standards related to company 
-      status, drivers, and vehicles. To support this, we developed an 
-      [application](https://partner.mygls.be/en/) 
-      that organizes and stores information on transport partners, drivers, 
-      vehicles, and their legal documentation.
+      Participated in the setup and configuration of a Windows server to support 
+      the Ministry's IT infrastructure. Installed and configured [GLPI](https://glpi-project.org/) 
+      for centralized asset management. Additionally, designed and developed a web application with [CodeIgniter](https://codeigniter.com/)
+      for inventory management of IT equipment, streamlining asset tracking and availability.
     highlights:
-      - Frontend development using [**ReactJS**](https://react.dev/), **TypeScript**
-        and [**NextJS**](https://nextjs.org/) and [ant-design](https://ant.design/).
-      - Synchronize copywriting using [Phrase](https://phrase.com).
-      - Unit testing with react testing library.
-      - Integration and Screenshot testing with [Playwright](https://playwright.dev).
+      - Configured a Windows server for secure and optimized network performance.
+      - Installed GLPI to manage the Ministry's IT assets, including hardware and software tracking.
+      - Created a web application for inventory management, allowing real-time tracking of equipment.
     technologies:
-      - reactjs
-      - zustand
-      - ant-design
-      - apexcharts
-      - framer-motion
-      - typescript
-      - react-testing-library
-      - playwright
-      - vitejs
-      - nextjs
-      - axios
-      - leaflet
-      - openapi
-      - tailwindcss
-      - typesafe-i18n
+      - Windows Server
+      - GLPI
+      - Bootstrap
+      - CodeIgniter
+      - HTML/CSS
+      - Network diagnostics tools
+      - Server configuration tools
+
   - company: EVS Broadcast Equipment
     disposition: current
     position: Senior Frontend Developer
