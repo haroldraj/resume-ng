@@ -22,7 +22,7 @@ basics:
   phone: +32 467 87 61 37
   email: harold.rajaonarison@ecole-it.com
   location:
-    address: Avenue de Tervueren
+    address: Woluwe-Saint-pierre
     postalCode: "1150"
     city: Brussels
     countryCode: Belgium
@@ -227,6 +227,12 @@ skills:
       - Scrum
       - TDD
       - Testing Strategy
+  - name: Soft Skills
+    level: Master
+    keywords:
+      - Autonomy
+      - Rigor
+      - Curiosity
 languages:
   - language: English
     fluency: Level C1
