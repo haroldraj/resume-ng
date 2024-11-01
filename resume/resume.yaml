@@ -88,11 +88,12 @@ work:
       - Conducted regular diagnostics and troubleshooting of network and hardware issues.
       - Provided end-user support and training on system use and basic troubleshooting.
     technologies:
-      - Windows and Linux Server Configuration
-      - Local Network Installation (Switches, Routers, Patch Panels)
-      - Wired and Wireless Surveillance Systems
-      - IT System Diagnostics and Maintenance
-      - End-User Technical Support
+      - Windows 
+      - Linux
+      - LAN
+      - Routing
+      - Server
+      - IT Support
   - company: Ministry of Economy and Finance (Madagascar)
     disposition: current
     position: System Administrator (Internship)
@@ -116,64 +117,52 @@ work:
       - Bootstrap
       - CodeIgniter
       - HTML/CSS
-      - Network diagnostics tools
-      - Server configuration tools
-
-  - company: Kensu
+      - Fusion Inventory
+      - MDT
+projects:
+  - name: "Best EU League"
+    description: "A brief description of Project One."
     disposition: page1
-    position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
-    website: https://www.kensu.io
-    startDate: "2019-12-01"
-    endDate: "2021-04-30"
-    methodology: Agile/Scrum
-    summary: |
-      Developed proprietary [Data Observability](https://www.kensu.io/product/features) software 
-      to help organizations ensure data quality, reliability, and integrity through 
-      comprehensive monitoring and analysis of their data ecosystem.
     highlights:
-      - New features in the frontend using [ReactJS](https://react.dev/) and the
-        [**Antd Design System**](https://ant.design/).
-      - >-
-        Write [**OpenAPI**](https://swagger.io/specification/) (swagger) definitions to specify the interface with
-        the backend.
-      - Frontend testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
-      - Mock implementation of the backend to allow for parallel development
-    technologies:
-      - ant-design
-      - apexcharts
-      - axios
-      - css/sass
-      - cra
-      - cypress
-      - enzyme
-      - git
-      - github
-      - html
-      - jest
-      - json-schema
-      - jsonata
-      - nodejs
-      - openapi
-      - react-diagrams
-      - react-redux
-      - react-router
-      - react-query
-      - reactjs
-      - redux
-      - redux-toolkit
-      - typescript
-      - websocket
-      - wiremock
+      - "Key feature 1"
+      - "Key feature 2"
+    keywords:
+      - Python
+      - Web Scraping
+      - API Scraping
+      - Numpy
+      - Matplotlib
+      - Sklearn
+      - Seaborn
+      - Pandas
+      - ETL
+      - Data Analysis
+      - Machine Learning
+      - RandomForestRegressor
+    startDate: "2023-01-01"
+    endDate: "2023-12-31"
+    url: "http://example.com/project-one"
+  - name: "Car Accident Detection"
+    description: "A brief description of Project One."
+    disposition: page1
+    highlights:
+      - "Key feature 1"
+      - "Key feature 2"
+    keywords:
+      - "React"
+      - "Node.js"
+    startDate: "2023-01-01"
+    endDate: "2023-12-31"
+    url: "http://example.com/project-one"
 education:
   - institution: Ecole-IT (Campus Bruxelles)
     area: Computer Science
-    studyType: Graduat
+    studyType: Master
     startDate: "2022-10-03"
     endDate: "2025-08-01"
   - institution: Institut Supérieure Polytechnique de Madagascar (ISPM)
     area: Electronics, Computer Systems and AI
-    studyType: Graduat
+    studyType: Bachelor
     startDate: "2016-10-01"
     endDate: "2020-08-01"
   - institution: Jacques Rabemananjara High School - Madgascar

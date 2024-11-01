@@ -1,11 +1,11 @@
 import { ProcessedResume } from "../schema/resume";
 import Job from "./Job";
 
-interface Page2Props {
-  work: ProcessedResume["page2"];
+interface Page1Props {
+  work: ProcessedResume["page1"];
 }
 
-const Page2 = ({ work }: Page2Props) => {
+const Page1 = ({ work }: Page1Props) => {
   return (
     <div className="print:columns-2">
       {work.map((job, i) => (
@@ -15,4 +15,4 @@ const Page2 = ({ work }: Page2Props) => {
   );
 };
 
-export default Page2;
+export default Page1;

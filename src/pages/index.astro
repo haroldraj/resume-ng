@@ -23,9 +23,8 @@ const resume = resumeSchema.parse(resumeYaml) as Resume;
 const processedResume: ProcessedResume = {
   ...resume,
   current: resume.work.filter((w) => w.disposition === "current"),
-  page1: resume.work.filter((w) => w.disposition === "page1"),
-  page2: resume.work.filter((w) => w.disposition === "page2"),
-  page3: resume.work.filter((w) => w.disposition === "page3"),
+  page1: resume.projects.filter((p) => p.disposition === "page1"),
+  page2: resume.projects.filter((p) => p.disposition === "page2"),
 };
 
 const githubUrl = resume.basics.profiles.find((p) => p.network === "github")?.url;
@@ -62,10 +61,7 @@ const version = packageJson.version;
         languages={processedResume.languages}
       />
       <div class="break-before-page">
-        <Page1 work={processedResume.page1} />
-      </div>
-      <div class="break-before-page">
-        <Page2 work={processedResume.page2} />
+        <Page1 projects={processedResume.projects} />
         <Education education={processedResume.education} />
       </div>
     </main>

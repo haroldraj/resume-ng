@@ -247,6 +247,5 @@ export type Resume = z.infer<typeof resumeSchema>;
 export type ProcessedResume = Resume & {
   current: Resume["work"];
   page1: Resume["work"];
-  page2: Resume["work"];
-  page3: Resume["work"];
+  page2: Resume["projects"];
 };
