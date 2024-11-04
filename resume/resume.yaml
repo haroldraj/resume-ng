@@ -2,23 +2,19 @@ basics:
   name: Harold Rajaonarison
   label: Aspiring Data Analyst
   summary: |
-    As a Senior Fullstack Engineer, I utilize a strong background in Java-based backend 
-    services combined with extensive experience in modern frontend technologies. My recent 
-    shift to fullstack development allows me to apply my thorough knowledge of the Java Platform
-    and harness the capabilities of the Angular framework to create interactive and 
-    responsive user interfaces.
-
-    Testing continues to be a critical component of my development process. I am proficient 
-    in systematic unit testing and adept at using advanced integration tools such as 
-    Cypress and Playwright, which are essential for thorough application testing and 
-    effective backend simulation.
-
-    ### Specialties
-
-    Strong expertise in Angular, TypeScript, and JavaScript. Comprehensive experience in 
-    backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud 
-    Computing. My approach focuses on integrating innovative frontend techniques with 
-    robust backend solutions to deliver superior outcomes for clients.
+    I am a final-year Master's student specializing in Data Science, 
+    actively seeking a 6-month internship starting in January 2025 to 
+    further build my skills and gain hands-on experience. Throughout my 
+    academic journey, I have developed strong technical expertise and 
+    problem-solving abilities through various projects, including real-time 
+    car accident detection and data-driven analysis of top European football leagues. 
+    Known for my rigor and attention to detail, I approach each task with precision, 
+    ensuring high-quality analysis and reliable outcomes. My technical skills in 
+    data processing, machine learning, and visualization are complemented by 
+    a strong sense of autonomy and curiosity, driving me to continuously learn 
+    and excel in data science. I am eager to apply my knowledge in a professional 
+    setting, contributing to impactful projects while further expanding 
+    my capabilities.
   phone: +32 467 87 61 37
   email: harold.rajaonarison@ecole-it.com
   location:
@@ -37,6 +33,7 @@ basics:
     - network: github
       username: haroldraj
       url: https://github.com/haroldraj
+
 work:
   - company: IDM TEK (Brussels)
     disposition: current
@@ -67,6 +64,7 @@ work:
       - REST API
       - Agile/Scrum 
       - Trello
+      
   - company: KETRIKA Hi-Tech (Madagascar)
     disposition: current
     position: IT Technician
@@ -94,6 +92,7 @@ work:
       - Routing
       - Server
       - IT Support
+      
   - company: Ministry of Economy and Finance (Madagascar)
     disposition: current
     position: System Administrator (Internship)
@@ -119,13 +118,16 @@ work:
       - HTML/CSS
       - Fusion Inventory
       - MDT
+      
 projects:
   - name: "Best EU League"
-    description: "A brief description of Project One."
+    description: "A data-driven project to identify the best European football league over the past 3 to 5 years, for a broadcaster’s sports streaming package."
     disposition: page1
     highlights:
-      - "Key feature 1"
-      - "Key feature 2"
+      - "Built an ETL pipeline to extract, transform, and store data from official league websites (Ligue 1, Bundesliga, Serie A, Premier League)."
+      - "Conducted data preprocessing and feature engineering, calculating metrics such as win percentage and goals per game."
+      - "Developed a predictive model using RandomForestRegressor to rank leagues based on aggregated performance metrics, with hyperparameter tuning for accuracy."
+      - "Created data visualizations (bar charts, box plots) using Matplotlib and Seaborn to analyze key league statistics, including average goals per game and win rates."
     keywords:
       - Python
       - Web Scraping
@@ -139,65 +141,71 @@ projects:
       - Data Analysis
       - Machine Learning
       - RandomForestRegressor
-    startDate: "2023-01-01"
-    endDate: "2023-12-31"
-    url: "http://example.com/project-one"
-  - name: "Car Accident Detection"
-    description: "A brief description of Project One."
+      
+  - name: "Real-Time Car Accident Detection System"
+    description: "Developed an intelligent system for real-time car accident detection using video feeds, aimed at reducing emergency response times for the city of Brussels."
     disposition: page1
     highlights:
-      - "Key feature 1"
-      - "Key feature 2"
+      - "Preprocessed and cleaned video data, extracting key features to detect unusual driving behaviors associated with accidents."
+      - "Trained a machine learning classification model using neural networks to identify accident patterns in live video streams."
+      - "Integrated the model into a real-time processing pipeline to continuously monitor video feeds and trigger alerts for emergency services upon detection of an accident."
+      - "Evaluated model performance with accuracy, precision, and recall metrics, ensuring reliable detection in various traffic conditions."
     keywords:
-      - "React"
-      - "Node.js"
-    startDate: "2023-01-01"
-    endDate: "2023-12-31"
-    url: "http://example.com/project-one"
+      - Python
+      - OpenCV
+      - TensorFlow
+      - Neural Networks
+      - Video Processing
+      - Data Preprocessing
+      - Feature Engineering
+      - Machine Learning
+      - Real-Time Detection
+      - Classification Model
+
 education:
   - institution: Ecole-IT (Campus Bruxelles)
-    area: Computer Science
-    studyType: Master
+    area: Computer Science, Specialization Data Science / AI
+    studyType: Master - 
     startDate: "2022-10-03"
     endDate: "2025-08-01"
   - institution: Institut Supérieure Polytechnique de Madagascar (ISPM)
     area: Electronics, Computer Systems and AI
-    studyType: Bachelor
+    studyType: Bachelor -
     startDate: "2016-10-01"
     endDate: "2020-08-01"
   - institution: Jacques Rabemananjara High School - Madgascar
-    area: secondaire
-    studyType: Enseignement
+    area: Education
+    studyType: Secondary 
     startDate: "2012-10-01"
     endDate: "2016-08-01"
+
 skills:
+  - name: Data Ecosystem
+    level: master
+    keywords:
+      - Web/API Scraping
+      - Exploratory and Inferential Statistics
+      - Data visualization
+      - ETL
+      - Power BI
+      - Power Query
+      - Pandas
+      - Numpy
+      - Matplotlib
+      - Machine Learning
   - name: Web Development
     level: Master
     keywords:
-      - ReactJS
-      - Angular
-      - WebPack
-      - Vite
-      - NextJS
-      - HTML
-      - CSS
+      - Flutter
       - REST
       - Laravel
-      - Tailwindcss
+      - Spring Boot
   - name: Programming Languages
     level: Master
     keywords:
-      - TypeScript
       - Python
       - Dart
-      - JavaScript
       - Java
-      - PHP
-  - name: Java Ecosystem
-    level: Master
-    keywords:
-      - Spring
-      - Hibernate
   - name: Databases
     level: Master
     keywords:
@@ -214,14 +222,14 @@ skills:
     level: Master
     keywords:
       - Scrum
-      - TDD
-      - Testing Strategy
+      - Agile
   - name: Soft Skills
     level: Master
     keywords:
       - Autonomy
       - Rigor
       - Curiosity
+      
 languages:
   - language: English
     fluency: Level C1
