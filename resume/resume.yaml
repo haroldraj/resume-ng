@@ -1,20 +1,22 @@
 basics:
   name: Harold Rajaonarison
-  label: Aspiring Data Analyst
+  label: Aspiring IT Intern
   summary: |
-    I am a final-year Master's student specializing in Data Science, 
-    actively seeking a 6-month internship starting in January 2025 to 
-    further build my skills and gain hands-on experience. Throughout my 
-    academic journey, I have developed strong technical expertise and 
-    problem-solving abilities through various projects, including real-time 
-    car accident detection and data-driven analysis of top European football leagues. 
-    Known for my rigor and attention to detail, I approach each task with precision, 
-    ensuring high-quality analysis and reliable outcomes. My technical skills in 
-    data processing, machine learning, and visualization are complemented by 
-    a strong sense of autonomy and curiosity, driving me to continuously learn 
-    and excel in data science. I am eager to apply my knowledge in a professional 
-    setting, contributing to impactful projects while further expanding 
-    my capabilities.
+    I am a final-year Master's student in Computer Science, actively seeking a 6-month 
+    internship starting in January 2025 to apply and further develop my skills in various 
+    IT fields, including AI, software development, and data analysis. My academic background 
+    has equipped me with strong technical expertise, particularly in problem-solving, 
+    coding, and system optimization.
+
+    Throughout my studies, I have engaged in diverse projects, such as developing a 
+    real-time car accident detection model using machine learning, building a LinkedIn 
+    clone with full-stack functionalities, and creating a highly scalable cloud storage 
+    platform using a microservices architecture. These experiences have honed my skills.
+
+    Currently, I am enhancing my technical skills through courses on [365 Data Science](https://learn.365datascience.com/profile/), 
+    expanding my knowledge in analytics, machine learning, and data visualization.
+
+    For more details on my projects, please visit my [GitHub profile](https://github.com/haroldraj).
   phone: +32 467 87 61 37
   email: harold.rajaonarison@ecole-it.com
   location:
@@ -142,6 +144,32 @@ projects:
       - Machine Learning
       - RandomForestRegressor
       
+  - name: "HostIt: Scalable Cloud Hosting Platform"
+    description: "Developed a highly available and scalable cloud storage platform designed for non-technical users, using a microservices architecture."
+    disposition: page1
+    highlights:
+      - "Built a Kubernetes (K3s) cluster for scalability and high availability."
+      - "Implemented secure user authentication and registration features."
+      - "Developed a Flutter frontend with drag-and-drop file upload, file search, and sorting capabilities."
+      - "Deployed Spring Boot microservices with MinIO for object storage and NGINX as a reverse proxy."
+      - "Enabled file viewing in browser tabs and optimized performance for seamless user experience."
+    keywords:
+      - Kubernetes
+      - Docker
+      - TrueNAS
+      - MinIO
+      - Spring Boot
+      - NGINX
+      - Flutter
+      - Microservices
+      - SQL
+      - RestTemplate
+      - Authentication
+      - File Management
+      - Scalability
+    startDate: "2024-01-01"
+    endDate: "2024-12-31"
+
   - name: "Real-Time Car Accident Detection System"
     description: "Developed an intelligent system for real-time car accident detection using video feeds, aimed at reducing emergency response times for the city of Brussels."
     disposition: page1
@@ -161,6 +189,30 @@ projects:
       - Machine Learning
       - Real-Time Detection
       - Classification Model
+  
+  - name: "LinkedIn Clone"
+    description: "Developed a full-stack LinkedIn clone to practice and apply modern web development techniques using a microservices architecture."
+    disposition: page1
+    highlights:
+      - "Built a responsive frontend using React with a focus on user experience and performance."
+      - "Developed backend microservices with Spring Boot for scalable API management."
+      - "Utilized Docker for containerization, ensuring consistent deployment across different environments."
+      - "Implemented features such as user authentication, profile management, and a dynamic feed."
+      - "Employed REST APIs for seamless communication between frontend and backend services."
+    keywords:
+      - ReactJS
+      - Spring Boot
+      - Microservices
+      - Docker
+      - RestTemplate
+      - REST API
+      - SQL
+      - Containerization
+      - Authentication
+      - Web Development
+    startDate: "2024-01-01"
+    endDate: "2024-12-31"
+
 
 education:
   - institution: Ecole-IT (Campus Bruxelles)
@@ -185,6 +237,7 @@ skills:
     keywords:
       - Web/API Scraping
       - Statistics
+      - Excel
       - Data visualization
       - ETL
       - Power BI
@@ -193,19 +246,23 @@ skills:
       - Numpy
       - Matplotlib
       - Machine Learning
-  - name: Web Development
+  - name: Development
     level: Master
     keywords:
       - Flutter
       - REST
+      - React JS
       - Laravel
       - Spring Boot
+      - Microservices
+      - Node JS
   - name: Programming Languages
     level: Master
     keywords:
       - Python
       - Dart
       - Java
+      - Typescript
   - name: Databases
     level: Master
     keywords:
