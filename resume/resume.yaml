@@ -142,7 +142,6 @@ projects:
       - ETL
       - Data Analysis
       - Machine Learning
-      - RandomForestRegressor
       
   - name: "HostIt: Scalable Cloud Hosting Platform"
     description: "Developed a highly available and scalable cloud storage platform designed for non-technical users, using a microservices architecture."
