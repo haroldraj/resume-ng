@@ -1,17 +1,14 @@
 basics:
   name: Harold Rajaonarison
-  label: Aspiring IT Intern
+  label: Fullstack Developer
   summary: |
     I am a final-year Master's student in Computer Science, actively seeking a 6-month 
-    internship starting in January 2025 to apply and further develop my skills in various 
-    IT fields, including AI, software development, and data analysis. My academic background 
-    has equipped me with strong technical expertise, particularly in problem-solving, 
-    coding, and system optimization.
+    internship starting in January 2025. My academic background has equipped me with 
+    strong technical expertise, particularly in problem-solving, coding, and system optimization.
 
-    Throughout my studies, I have engaged in diverse projects, such as developing a 
-    real-time car accident detection model using machine learning, building a LinkedIn 
-    clone with full-stack functionalities, and creating a highly scalable cloud storage 
-    platform using a microservices architecture. These experiences have honed my skills.
+    Throughout my studies, I have engaged in diverse projects, such as developing a LinkedIn 
+    clone with fullstack functionalities, and creating a highly scalable cloud storage 
+    platform using a microservices architecture.
   phone: +32 467 87 61 37
   email: harold.rajaonarison@ecole-it.com
   location:
@@ -24,9 +21,6 @@ basics:
     - network: linkedin
       username: haroldraj
       url: https://www.linkedin.com/in/haroldraj
-    - network: twitter
-      username: rnarsonharold
-      url: https://x.com/rnarsonharold
     - network: github
       username: haroldraj
       url: https://github.com/haroldraj
@@ -41,16 +35,13 @@ work:
     methodology: Agile/Scrum
     summary: >-
       Contributed to the development of a web and mobile application designed to facilitate 
-      communication between agents, clubs, and football players. Built with [Flutter](https://flutter.dev/) for the 
-      interfaces and [Laravel](https://laravel.com/) for the backend, the application provided access to detailed player statistics 
-      while securing sensitive information, such as contact details. Agents could also manage their connections 
-      with athletes within the platform. An external API was used to retrieve up-to-date stats on players, leagues, 
-      and clubs.
+      communication between agents, clubs, and football players. Agents could also manage their connections 
+      with athletes within the platform.
     highlights:
-      - Fullstack development using Flutter for mobile and Laravel for backend.
+      - Fullstack development using Flutter for frontend and Laravel for backend.
       - Integrated a third-party API for retrieving player, league, and club statistics.
       - Ensured secure access to player data while protecting sensitive information.
-      - Used [Docker](https://www.docker.com/) for containerization and [Gitea](https://about.gitea.com/) for version control and collaboration.
+      - Used docker for containerization and gitea for version control and collaboration.
 
     technologies:
       - Laravel
@@ -72,15 +63,10 @@ work:
     methodology: Agile/Scrum
     summary: >-
       Responsible for maintaining and troubleshooting IT systems, including the installation 
-      and configuration of local networks, server setup, and surveillance systems. Ensured 
-      network and system reliability through regular diagnostics and proactive maintenance, 
-      enhancing both security and operational efficiency.
+      and configuration of local networks, server setup, and surveillance systems.
     highlights:
       - Performed maintenance on computer systems, ensuring minimal downtime and optimal performance.
-      - Installed and configured local networks.
       - Set up and configured Windows and Linux servers, managing access control and monitoring system health.
-      - Installed and managed both wired and wireless surveillance camera systems.
-      - Conducted regular diagnostics and troubleshooting of network and hardware issues.
       - Provided end-user support and training on system use and basic troubleshooting.
     technologies:
       - Windows 
@@ -100,8 +86,8 @@ work:
     methodology: Agile/Scrum
     summary: |
       Participated in the setup and configuration of a Windows server to support 
-      the Ministry's IT infrastructure. Installed and configured [GLPI](https://glpi-project.org/) 
-      for centralized asset management. Additionally, designed and developed a web application with [CodeIgniter](https://codeigniter.com/)
+      the Ministry's IT infrastructure. Installed and configured GLPI
+      for centralized asset management. Additionally, designed and developed a web application with CodeIgniter
       for inventory management of IT equipment, streamlining asset tracking and availability.
     highlights:
       - Configured a Windows server for secure and optimized network performance.
@@ -117,27 +103,6 @@ work:
       - MDT
       
 projects:
-  - name: "Best EU League"
-    description: "A data-driven project to identify the best European football league over the past 3 to 5 years, for a broadcaster’s sports streaming package."
-    disposition: page1
-    highlights:
-      - "Built an ETL pipeline to extract, transform, and store data from official league websites (Ligue 1, Bundesliga, Serie A, Premier League)."
-      - "Conducted data preprocessing and feature engineering, calculating metrics such as win percentage and goals per game."
-      - "Developed a predictive model using RandomForestRegressor to rank leagues based on aggregated performance metrics, with hyperparameter tuning for accuracy."
-      - "Created data visualizations (bar charts, box plots) using Matplotlib and Seaborn to analyze key league statistics, including average goals per game and win rates."
-    keywords:
-      - Python
-      - Web Scraping
-      - API Scraping
-      - Numpy
-      - Matplotlib
-      - Sklearn
-      - Seaborn
-      - Pandas
-      - ETL
-      - Data Analysis
-      - Machine Learning
-      
   - name: "HostIt: Scalable Cloud Hosting Platform"
     description: "Developed a highly available and scalable cloud storage platform designed for non-technical users, using a microservices architecture."
     disposition: page1
@@ -163,27 +128,7 @@ projects:
       - Scalability
     startDate: "2024-01-01"
     endDate: "2024-12-31"
-
-  - name: "Real-Time Car Accident Detection System"
-    description: "Developed an intelligent system for real-time car accident detection using video feeds, aimed at reducing emergency response times for the city of Brussels."
-    disposition: page1
-    highlights:
-      - "Preprocessed and cleaned video data, extracting key features to detect unusual driving behaviors associated with accidents."
-      - "Trained a machine learning classification model using neural networks to identify accident patterns in live video streams."
-      - "Integrated the model into a real-time processing pipeline to continuously monitor video feeds and trigger alerts for emergency services upon detection of an accident."
-      - "Evaluated model performance with accuracy, precision, and recall metrics, ensuring reliable detection in various traffic conditions."
-    keywords:
-      - Python
-      - OpenCV
-      - TensorFlow
-      - Neural Networks
-      - Video Processing
-      - Data Preprocessing
-      - Feature Engineering
-      - Machine Learning
-      - Real-Time Detection
-      - Classification Model
-  
+ 
   - name: "LinkedIn Clone"
     description: "Developed a full-stack LinkedIn clone to practice and apply modern web development techniques using a microservices architecture."
     disposition: page1
@@ -219,45 +164,29 @@ education:
     studyType: Bachelor -
     startDate: "2016-10-01"
     endDate: "2020-08-01"
-  - institution: Jacques Rabemananjara High School - Madgascar
-    area: Education
-    studyType: Secondary 
-    startDate: "2012-10-01"
-    endDate: "2016-08-01"
 
 skills:
-  - name: Data Ecosystem
+  - name: Programming languages
     level: master
     keywords:
-      - Web/API Scraping
-      - Statistics
-      - Data mining
-      - Excel
-      - Data visualization
-      - ETL
-      - Power BI
-      - Power Query
-      - Pandas
-      - Numpy
-      - Matplotlib
-      - Machine Learning
-  - name: Development
+      - Python
+      - Java
+      - Dart
+      - Javascript
+      - Typescript
+  - name: Frontend
     level: Master
     keywords:
       - Flutter
-      - REST
       - React JS
-      - Laravel
-      - Spring Boot
-      - Microservices
-      - Node JS
-  - name: Programming Languages
+      - Angular
+  - name: Backend
     level: Master
     keywords:
-      - Python
-      - Dart
-      - Java
-      - Typescript
+      - Spring Boot
+      - Firebase
+      - Django
+      - Microservices
   - name: Databases
     level: Master
     keywords:
@@ -284,7 +213,7 @@ skills:
       
 languages:
   - language: English
-    fluency: Level C1
+    fluency: Advanced
   - language: French
     fluency: Native
 interests:

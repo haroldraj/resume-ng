@@ -1,18 +1,21 @@
 import { ProcessedResume } from "../schema/resume";
 import AboutMe from "./AboutMe";
+import Education from "./Education";
 import Experience from "./Experience";
 import Header from "./Header";
 import Languages from "./Languages";
 import Skills from "./Skills";
 
-interface Page0Props {
+interface Page0Props
+{
   basics: ProcessedResume["basics"];
   skills: ProcessedResume["skills"];
   languages: ProcessedResume["languages"];
   current: ProcessedResume["current"];
 }
 
-const Page0 = ({ basics, skills, current, languages }: Page0Props) => {
+const Page0 = ({ basics, skills, current, languages }: Page0Props) =>
+{
   return (
     <>
       <Header name={basics.name} role={basics.label} summary={basics.summary} />
